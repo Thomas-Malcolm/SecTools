@@ -7,7 +7,7 @@ def help():
 	exit()
 
 def egcd(x,y):
-
+	# ax + by = gcd(x,y)
 	a, a_last = 0, 1
 	b, b_last = 1, 0	
 	r, r_last = y, x
